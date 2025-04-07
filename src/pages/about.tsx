@@ -28,7 +28,7 @@ const About: React.FC<AboutProps> = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title='개발자 단민 | About' />
+      <Seo title='재민의 블로그 | About' />
       <MainBanner author={author} />
       <Bio bio={author.bio} />
 
@@ -58,11 +58,9 @@ export const pageQuery = graphql`
           social {
             github
             linkedIn
-            resume
           }
           dropdown {
-            velog
-            tistory
+            githubPage
           }
         }
         timestamps {

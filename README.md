@@ -77,7 +77,7 @@ $ yarn dev
 
 ```ts
 title: `jeong-min.com`,
-description: `개발자 단민`,
+description: `재민의 블로그`,
 language: `ko`,
 siteUrl: `https://jeong-min.com/`,
 ogImage: `/og-image.png` // 공유할 때 보이는 미리보기 이미지

@@ -1,8 +1,8 @@
 ---
 emoji: 👩🏻‍💻
 title: 'example2'
-date: '2020-10-30'
-categories: featured-category2 category3
+date: '2025-04-05'
+categories: featured-TypeScript
 ---
 
 ## 예시 글입니다.
