@@ -49,6 +49,13 @@ const style = (theme: Theme) => css`
 
   .markdown {
     font-family: 'Noto Sans KR', sans-serif;
+    pre, code{
+      background-color: ${theme.color.gray10};
+      color: ${theme.color.black100};
+    }
+    .token.operator {
+      background-color: transparent;
+  }
   }
 
   .scroll-locked {
