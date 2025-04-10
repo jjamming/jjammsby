@@ -54,8 +54,8 @@ export default {
       category: 'featured-React',
     },
     {
-      title: 'Project',
-      category: 'featured-Project',
+      title: 'CodingTest',
+      category: 'featured-CodingTest',
     },
   ],
 
