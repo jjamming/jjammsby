@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: `jjamming/jjammsby`, //`danmin20/danmin-gatsby-blog`,
     },
   },
 
