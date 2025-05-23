@@ -2,7 +2,7 @@
 emoji: 📖
 title: '[BOJ] 1181: 단어 정렬 (node.js)'
 date: '2025-04-10'
-categories: featured-Codingtest
+categories: featured-CodingTest
 ---
 
 ## 🔗 문제 링크
