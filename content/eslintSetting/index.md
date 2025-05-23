@@ -1,5 +1,5 @@
 ---
-emoji: 📖
+emoji: 💻
 title: '[졸업프로젝트] ESLint + Prettier 세팅'
 date: '2025-05-23'
 categories: featured-Project
