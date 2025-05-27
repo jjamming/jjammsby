@@ -5,7 +5,7 @@ export default {
   title: `jjamming.com`,
   description: `재민`,
   language: `ko`,
-  siteUrl: `https://jjamming.com/`,
+  siteUrl: `https://jjammsby.vercel.app/`,
   ogImage: ``, // Path to your in the 'static' folder
 
   /**
