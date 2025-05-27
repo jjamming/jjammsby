@@ -37,6 +37,10 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
       defaultTitle={site.siteMetadata.title}
       meta={[
         {
+          name: 'google-site-verification',
+          content: 'TSyPZx5anjlBuvq5dTPE_oPzWege3gZVtBcB9euOVaU',
+        },
+        {
           property: `og:title`,
           content: title,
         },
