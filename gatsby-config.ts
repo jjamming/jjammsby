@@ -15,7 +15,7 @@ const config: GatsbyConfig = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-advanced-sitemap`,
+    // `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
