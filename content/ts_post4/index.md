@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: '유니언 타입 확장에 대응하는 안전한 처리법'
-date: '2025-06-21'
+date: '2025-06-20'
 categories: featured-TypeScript Project
 ---
 ## 🔁 타입이 바뀌면 return도 바꿔야죠 : 유니언 타입 확장에 대응하는 안전한 처리법

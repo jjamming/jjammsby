@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: '객체 타입의 특정 프로퍼티 타입 가져오기'
-date: '2025-06-21'
+date: '2025-06-19'
 categories: featured-TypeScript Project
 ---
 ## 🔁 TypeScript에서 타입을 재사용하는 법 : 객체 타입의 특정 프로퍼티 타입 가져오기
