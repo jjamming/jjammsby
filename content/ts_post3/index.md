@@ -4,7 +4,7 @@ title: '객체 타입의 특정 프로퍼티 타입 가져오기'
 date: '2025-06-21'
 categories: featured-TypeScript Project
 ---
-## TypeScript에서 타입을 재사용하는 법 : 객체 타입의 특정 프로퍼티 타입 가져오기
+## 🔁 TypeScript에서 타입을 재사용하는 법 : 객체 타입의 특정 프로퍼티 타입 가져오기
 
 졸업 프로젝트를 하던 중, 이미 정의해둔 타입에서 특정 속성만 재사용하고 싶어 방법을 고민하다가 알게 되었다.
 
@@ -12,7 +12,7 @@ categories: featured-TypeScript Project
 
 아래는 MarketIndex 라는 타입이다. kospi/kosdaq 지수 렌더링을 위해 정의해둔 타입이다.
 
-```
+```ts
 export type MarketIndex = {
   value: number;
   volatility: string;
