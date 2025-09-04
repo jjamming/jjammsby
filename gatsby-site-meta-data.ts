@@ -23,7 +23,7 @@ export default {
   author: {
     name: `유재민`,
     nickname: `재민`,
-    stack: ['Frontend', 'React', 'Typescript', 'BlockChain'],
+    stack: ['Frontend', 'React', 'Typescript'],
     bio: {
       email: `ohj3694@naver.com`,
       residence: 'Seoul, South Korea',
@@ -53,10 +53,6 @@ export default {
       title: 'React',
       category: 'featured-React',
     },
-    {
-      title: 'CodingTest',
-      category: 'featured-CodingTest',
-    },
   ],
 
   /**
@@ -81,10 +77,18 @@ export default {
     // },
     {
       category: 'Activity',
+      date: '2025.07 - 2025.08',
+      en: 'SOFTEER',
+      kr: 'HMG Softeer Bootcamp',
+      info: '현대자동차 소프티어 부트캠프 FE 6th',
+      link: '',
+    },
+    {
+      category: 'Activity',
       date: '2024.09 - 2025.02',
       en: 'UMC',
       kr: 'University MakeUs Challenge',
-      info: '대학생 연합 개발 동아리',
+      info: '대학생 연합 개발 동아리 Web 7th',
       link: '',
     },
     {
