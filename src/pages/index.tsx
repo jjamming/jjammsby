@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ location, data }) => {
   const recentPosts = posts.slice(0, 3);
 
   const featuredPosts = featured.map(({ title, category }) => {
-    const filteredPosts = posts.filter((post) => post.categories.find((c) => c === category));
+    const filteredPosts = posts.filter((post) => post.categories.find((c) => c === category)).slice(0, 3);
     return { title, posts: filteredPosts };
   });
 

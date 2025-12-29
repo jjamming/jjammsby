@@ -3,7 +3,7 @@ export default {
    * basic Information
    */
   title: `jjamming.com`,
-  description: `UI/UX와 유지보수성에 진심을 담아 프론트엔드를 공부하고 있습니다`,
+  description: `열심히 공부하고 꾸준히 기록하려 합니다.`,
   language: `ko`,
   siteUrl: `https://jjammsby.vercel.app/`,
   ogImage: ``, // Path to your in the 'static' folder
@@ -46,12 +46,16 @@ export default {
    */
   featured: [
     {
-      title: 'TypeScript',
-      category: 'featured-TypeScript',
+      title: 'Dev',
+      category: 'featured-Dev',
     },
     {
-      title: 'React',
-      category: 'featured-React',
+      title: 'Project',
+      category: 'featured-Project',
+    },
+    {
+      title: 'Algorithm',
+      category: 'featured-Algorithm',
     },
   ],
 
