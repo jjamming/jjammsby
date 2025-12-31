@@ -27,10 +27,10 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
           </strong>
           <span>를 좋아하는</span>
           <br />
-          개발자{' '}
-          <strong>
-            {name}
-          </strong>
+          개발자
+          <div>
+            ·<strong>{name}</strong>
+          </div>
           입니다.
         </S.Title>
         <Image alt='thumbnail' src='' />
