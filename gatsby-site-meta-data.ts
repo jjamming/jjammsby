@@ -110,13 +110,39 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
-      description: '포트폴리오',
+      title: 'StockPort',
+      description: '국내 주식 백테스트 서비스',
       techStack: ['React', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      thumbnailUrl: 'stpt_thumbnail.png', // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: '',
+        github: 'https://github.com/TeamStockPort/Frontend-StockPort',
+        demo: '',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'Gachita',
+      description: '복지 인프라 연계 고령자 병원 이동 DRT 플랫폼',
+      techStack: ['React', 'Typescript'],
+      thumbnailUrl: 'gachita_thumbnail.png', // Path to your in the 'assets' folder
+      links: {
+        post: '',
+        github: 'https://github.com/didyou88/Team5-HyFive',
+        demo: '',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'MemeSphere',
+      description: '세상의 모든 밈코인을 한 곳에서, 밈스피어',
+      techStack: ['React', 'Typescript'],
+      thumbnailUrl: 'memesphere_thumbnail.png', // Path to your in the 'assets' folder
+      links: {
+        post: '',
+        github: 'https://github.com/TeamMemeSphere/Frontend-MemeSphere',
         demo: '',
         googlePlay: '',
         appStore: '',
