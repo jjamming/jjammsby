@@ -27,7 +27,7 @@ export default {
     bio: {
       email: `ohj3694@naver.com`,
       residence: 'Seoul, South Korea',
-      bachelorDegree: 'Hongik Univ. Computer Engineering (2020.03 ~ ing)',
+      bachelorDegree: 'Hongik Univ. Computer Engineering (2020.03 ~ NOW)',
     },
     social: {
       github: `https://github.com/jjamming`,
@@ -63,14 +63,14 @@ export default {
    * metadata for About Page
    */
   timestamps: [
-    // {
-    //   category: 'Career',
-    //   date: '2022.01.04 - NOW',
-    //   en: 'A Corp.',
-    //   kr: 'A 회사',
-    //   info: 'A 팀',
-    //   link: '',
-    // },
+    {
+      category: 'Career',
+      date: '2026.01.05 - NOW',
+      en: 'miriDiH',
+      kr: '미리디(인턴)',
+      info: 'Frontend Development',
+      link: '',
+    },
     // {
     //   category: 'Career',
     //   date: '2021.01.04 - 2022.01.04',
