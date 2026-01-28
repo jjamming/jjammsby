@@ -64,7 +64,7 @@ memo와 동일한 작업을 수행한다는 맥락인데, 냅다 “memo랑 동�
 
 ## PR 작성 후 승인
 
-[PR] [docs: update keeping-components-pure.md](https://github.com/reactjs/ko.react.dev/pull/1440)
+[PR] [docs: translate React Compiler callouts for useMemo, useCallback, and memo](https://github.com/reactjs/ko.react.dev/pull/1440)
 
 번역 완료 후 PR을 작성했다! 아래 3개 커밋이 나의 첫 오픈소스 기여 코드다.
 
