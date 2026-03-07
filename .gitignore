@@ -53,6 +53,10 @@ typings/
 
 # dotenv environment variable files
 .env*
+.envrc
+
+# local settings
+*.local.*
 
 # gatsby files
 .cache/
@@ -67,3 +71,8 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# About AI Agent
+.omc
+.sisyphus
+.mcp.json
