@@ -6,10 +6,11 @@ import { Helmet } from 'react-helmet';
 type SeoProps = {
   description?: string;
   title: string;
+  path?: string;
   children?: React.ReactNode;
 };
 
-const Seo: React.FC<SeoProps> = ({ description, title }) => {
+const Seo: React.FC<SeoProps> = ({ description, title, path }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -17,6 +18,7 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
           siteMetadata {
             title
             description
+            siteUrl
             author {
               name
               nickname
@@ -29,12 +31,14 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const canonical = path ? `${site.siteMetadata.siteUrl}${path}` : undefined;
 
   return (
     <Helmet
-      htmlAttributes={{ lang: 'en' }}
+      htmlAttributes={{ lang: 'ko' }}
       title={title}
       defaultTitle={site.siteMetadata.title}
+      link={canonical ? [{ rel: 'canonical', href: canonical }] : []}
       meta={[
         {
           name: 'google-site-verification',
@@ -68,11 +72,13 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
           property: 'og:image',
           content: site.siteMetadata.ogImage,
         },
-
         {
           property: `og:type`,
           content: `website`,
         },
+        ...(canonical
+          ? [{ property: 'og:url', content: canonical }]
+          : []),
       ]}
     />
   );

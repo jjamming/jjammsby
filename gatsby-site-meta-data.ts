@@ -6,7 +6,7 @@ export default {
   description: `열심히 공부하고 꾸준히 기록하려 합니다.`,
   language: `ko`,
   siteUrl: `https://jjammsby.vercel.app/`,
-  ogImage: ``, // Path to your in the 'static' folder
+  ogImage: `/ogImage.png`,
 
   /**
    * comments setting
