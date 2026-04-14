@@ -79,5 +79,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "lint": "eslint --ext .tsx --ext .ts ."
+  },
+  "resolutions": {
+    "axios": "^1.15.0"
   }
 }
