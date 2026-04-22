@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import ReactRotatingText from 'react-rotating-text';
 
 import { Author } from '@/src/type';
@@ -12,9 +11,7 @@ type MainBannerProps = {
 };
 
 const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
-  const { stack, social, name, nickname, dropdown } = author;
-
-  const [isDropdownOpened, setIsDropdownOpened] = useState(false);
+  const { stack, social, name } = author;
 
   return (
     <S.Wrapper>
@@ -40,23 +37,6 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
                 </S.SocialButton>
               ),
           )}
-          {/* space-between을 위한 빈 div */}
-          <div />
-          <S.DropdownButton onMouseLeave={() => setIsDropdownOpened(false)}>
-            <div onMouseEnter={() => setIsDropdownOpened(true)}>etc.</div>
-            {isDropdownOpened && (
-              <S.Dropdown>
-                {Object.keys(dropdown).map(
-                  (link, index) =>
-                    dropdown[link as keyof typeof dropdown] && (
-                      <S.SocialButton key={index} target='_blank' href={dropdown[link as keyof typeof dropdown]}>
-                        {link}
-                      </S.SocialButton>
-                    ),
-                )}
-              </S.Dropdown>
-            )}
-          </S.DropdownButton>
         </S.SocialWrapper>
       </S.IntroWrapper>
 

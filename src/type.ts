@@ -43,7 +43,6 @@ export type Author = {
   stack: string[];
   bio: Bio;
   social: Social;
-  dropdown: Record<string, string>;
 };
 
 export type Bio = {
@@ -55,7 +54,7 @@ export type Bio = {
 export type Social = {
   github: string;
   linkedIn: string;
-  // resume: string;
+  portfolio: string;
 };
 
 export type Post = {

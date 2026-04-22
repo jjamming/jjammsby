@@ -32,12 +32,7 @@ export default {
     social: {
       github: `https://github.com/jjamming`,
       linkedIn: `https://www.linkedin.com/in/jjamming/`,
-      // resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
-    },
-    dropdown: {
-      // tistory: 'https://danminblog.tistory.com/',
-      // velog: 'https://velog.io/@danmin20',
-      githubPage: 'https://jjamming.github.io',
+      portfolio: `https://drive.google.com/file/d/1Bryu4sIsZxs-8mTDkVlDzr20SEpX2oII/view?usp=sharing`,
     },
   },
 
@@ -66,7 +61,7 @@ export default {
     {
       category: 'Career',
       date: '2026.01.05 - NOW',
-      en: 'miriDiH',
+      en: 'Miridih',
       kr: '미리디(인턴)',
       info: 'Frontend Development',
       link: '',

@@ -118,39 +118,6 @@ export const SocialButton = styled.a`
   ${({ theme }) => hoverUnderline(theme)};
 `;
 
-export const DropdownButton = styled.div`
-  color: ${({ theme }) => theme.color.black100};
-  font-size: 18px;
-  position: absolute;
-  height: 100px;
-  bottom: -100px;
-  & > div:first-of-type {
-    cursor: pointer;
-    ${({ theme }) => hoverUnderline(theme)};
-  }
-  @media ${MOBILE_MEDIA_QUERY} {
-    left: 0px;
-    align-items: flex-start;
-    bottom: -110px;
-  }
-`;
-
-export const Dropdown = styled.div`
-  margin-top: 5px;
-  position: absolute;
-  gap: 2px;
-  display: flex;
-  flex-direction: column;
-  top: 25px;
-  right: 0;
-  align-items: flex-end;
-  z-index: 30;
-  @media ${MOBILE_MEDIA_QUERY} {
-    left: 0px;
-    align-items: flex-start;
-  }
-`;
-
 export const BuyMeACoffeeWrapper = styled.div`
   position: absolute;
   top: 300px;

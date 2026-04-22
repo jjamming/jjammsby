@@ -80,9 +80,7 @@ export const pageQuery = graphql`
           social {
             github
             linkedIn
-          }
-          dropdown {
-            githubPage
+            portfolio
           }
         }
         featured {
