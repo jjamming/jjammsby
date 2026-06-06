@@ -124,7 +124,7 @@ export default {
       thumbnailUrl: 'gachita_thumbnail.png', // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: 'https://github.com/didyou88/Team5-HyFive',
+        github: 'https://github.com/jjamming/SofteerBootcamp-Team5-HyFive',
         demo: '',
         googlePlay: '',
         appStore: '',
